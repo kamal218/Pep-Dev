@@ -100,7 +100,7 @@
 // arr.splice(10);
 // console.log(arr);
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // for (let i = arr.length - 1; i >= 0; i--) {
 //     if (arr[i] % 2 == 0) {
 //         arr.splice(i, 1);
@@ -108,10 +108,38 @@ let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // }
 // console.log(arr);
 
-arr = arr.filter(function (data, index) {
-    if (data % 2 == 0)
-        return false;
-    else
-        return true;
-});
-console.log(arr);
+// arr = arr.filter(function (data, index) {
+//     if (data % 2 == 0)
+//         return false;
+//     else
+//         return true;
+// });
+// console.log(arr);
+
+
+// let obj = {
+//     "abc": "Inside object",
+//     "abc1": [1, 2, 3],
+//     "abc2": function () {
+//         console.log("Function as a value in object");
+//     },
+//     1: "Integer as a key",
+//     2: {
+//         "In2": "Inside Object of Object"
+//     }
+// }
+// obj["name"] = "kamal";
+// console.log(obj.abc, obj.abc1, obj.abc2());
+// console.log(obj["abc"], obj["abc1"], obj["abc2"]());
+// console.log(obj[2].In2);
+
+// let keys = Object.keys(obj);
+// console.log(keys);
+
+// let values = Object.values(obj);
+// console.log(values);
+
+// let arr = [1, 2, 3];
+// arr['abc'] = 'pqr';
+// console.log(arr);
+// console.log(arr[3]);//undefined
